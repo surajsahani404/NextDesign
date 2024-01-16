@@ -46,7 +46,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="nav-links d-lg-block d-md-none d-sm-none d-xs-none">
-          <ul className="d-flex justify-content-between align-items-center gap-4 fs-6 pt-3 list-unstyled text-decoration-none link-underline-opacity-0">
+          <ul className="d-flex justify-content-between align-items-center gap-4 fs-6  list-unstyled text-decoration-none link-underline-opacity-0">
             <li className="nav-items">
               <Link href="/">Home</Link>
             </li>

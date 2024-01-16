@@ -5,6 +5,10 @@
   transition: all ease 0.4s;
   font-size: 0.85rem;
 }
+
+.nav-links ul {
+  margin-bottom: 0 !important;
+}
 .nav-links ul a:hover {
   /* font-size: 1rem; */
   color: #5d42d3;
@@ -27,8 +31,8 @@
   position: fixed;
   z-index: 9999999;
   width: 100%;
-  background-color: #fff;
-  padding: 2vh 18.5vw;
+  background-color: transparent;
+  padding: 2.5vh 18.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

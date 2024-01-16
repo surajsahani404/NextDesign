@@ -1,0 +1,246 @@
+.footer {
+  height: 1005;
+  background-color: #363636;
+}
+
+.item1 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-1.jpg);
+  background-size: contain;
+}
+
+.item2 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-2.jpg);
+  background-size: contain;
+}
+
+.item3 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-3.jpg);
+  background-size: contain;
+}
+
+.item4 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-4.jpg);
+  background-size: contain;
+}
+
+.item5 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-5.jpg);
+  background-size: contain;
+}
+
+.item6 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-6.jpg);
+  background-size: contain;
+}
+
+.project-container {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 8px;
+  columns: 2;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #252525;
+  padding: 2rem 0;
+}
+
+.copyright-text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+.project-container div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  opacity: 0;
+  font-size: 1.5rem;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+}
+
+.project-container div:hover {
+  filter: blur(0.5px) brightness(50%);
+}
+
+.project-container div:hover i {
+  opacity: 1;
+}
+
+.socials i {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-size: 1.25rem;
+}
+
+.socials i:hover {
+  color: #f17e58;
+}
+/* 
+.footer-text {
+  padding: 5rem 25rem 2.5rem 25rem;
+}
+
+.footer-text h1 {
+  font-weight: 800;
+}
+
+.footer-items {
+  padding: 1vh 25vw;
+  color: #fff;
+}
+
+.footer-items div p {
+  font-size: 0.85rem;
+}
+
+.project-container {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 8px;
+  columns: 2;
+}
+
+.item1 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-1.jpg);
+  background-size: contain;
+}
+
+.item2 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-2.jpg);
+  background-size: contain;
+}
+
+.item3 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-3.jpg);
+  background-size: contain;
+}
+
+.item4 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-4.jpg);
+  background-size: contain;
+}
+
+.item5 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-5.jpg);
+  background-size: contain;
+}
+
+.item6 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-image: url(/item-6.jpg);
+  background-size: contain;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #252525;
+  padding: 2rem 0;
+}
+
+.copyright-text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+.project-container div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  opacity: 0;
+  font-size: 1.5rem;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+}
+
+.project-container div:hover {
+  filter: blur(0.5px) brightness(50%);
+}
+
+.project-container div:hover i {
+  opacity: 1;
+}
+
+.socials i {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-size: 1.25rem;
+}
+
+.socials i:hover {
+  color: #f17e58;
+}
+*/
+
+@media (max-width: 1050px) {
+  .footer-items {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-items div {
+    width: 500px;
+  }
+
+  .project-container div {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+    padding: 2rem;
+  }
+  .footer-items {
+    padding-left: 18rem;
+  }
+  .socials {
+    gap: 0.5rem;
+  }
+}

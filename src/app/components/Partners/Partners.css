@@ -1,0 +1,143 @@
+.partners {
+  width: 100%;
+  background-image: url(/bg-services.png);
+  overflow: hidden;
+}
+
+.testimonial-carousel {
+  height: 28rem;
+  width: 50rem;
+  background-color: rgb(170, 168, 168);
+  margin: 2.5rem auto;
+}
+
+.testimonial-item p:nth-child(1) {
+  font-size: 1.25rem;
+}
+
+.testimonial-item p:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+.testimonial-item p:nth-child(3) {
+  font-size: 1.25rem;
+}
+
+.testimonial-logo {
+  margin: 0 auto;
+  padding: 4.5rem 10rem 2.5rem 10rem;
+}
+
+.testimonial-logo-text {
+  padding: 0 0.75rem;
+  background-color: #08d7bd;
+}
+
+.slick-arrow.slick-next button {
+  color: #000;
+}
+
+.newsletter-wrapper {
+  background-image: url(/newsletter-bg.jpg);
+  padding: 6vh 20vw;
+}
+
+.newsletter-text h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  padding-right: 8vw;
+}
+
+.email-box input {
+  padding: 1rem 3rem;
+  width: 30rem;
+  border-radius: 3rem;
+  border: none;
+}
+
+.email-box input:focus {
+  outline: none;
+}
+
+.send-button {
+  border: transparent;
+  border-radius: 3rem;
+  background-color: turquoise;
+  padding: 0.75rem 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.partner-logo-carousel {
+  /* width: 100%; */
+  padding: 5rem 0;
+}
+
+.mobile-carousel {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  .newsletter-wrapper {
+    padding: 2vh 5vw;
+  }
+  .newsletter-text h1 {
+    font-size: 2rem;
+    padding-right: 1vw;
+  }
+
+  .email-box {
+    width: 10rem;
+  }
+  .email-box button {
+    margin-right: 4vw;
+  }
+  .testimonial-item {
+    padding-top: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .newsletter-wrapper {
+    flex-direction: column;
+  }
+  .email-box {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .email-box button {
+    margin-right: 0;
+  }
+
+  .email-box input {
+    width: 90vw;
+    padding: 0.75rem;
+  }
+  .testimonial-carousel {
+    width: 90vw;
+    height: 50vh;
+  }
+  .testimonial-logo {
+    padding-left: 35vw;
+    width: 8vw;
+    height: 15vh;
+    margin: -3rem;
+  }
+
+  .testimonial-item p:nth-child(1) {
+    font-size: 0.75rem;
+  }
+
+  .testimonial-item p:nth-child(2) {
+    font-size: 0.8rem;
+  }
+
+  .testimonial-item p:nth-child(3) {
+    font-size: 0.75rem;
+  }
+
+  .testimonial-item {
+    height: 60vh;
+  }
+}

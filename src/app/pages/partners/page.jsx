@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import gsap from "gsap";
@@ -18,6 +17,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Partners.css";
+import Navbar from "../Navbar/Navbar";
 
 const Partners = () => {
   const contRef = useRef(null);

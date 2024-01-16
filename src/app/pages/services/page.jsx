@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useEffect, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import gsap from "gsap";
@@ -7,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "./Services.css";
 import "remixicon/fonts/remixicon.css";
+import Navbar from "../Navbar/Navbar";
 gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {

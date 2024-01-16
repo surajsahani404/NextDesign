@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useRef } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
@@ -48,7 +47,6 @@ const Masonary = () => {
 
   return (
     <>
-      <Navbar />
       <div className="projects mt-5" ref={containerRef}>
         <div className="masonary-container container" ref={masonaryRef}>
           <div className="masonary">

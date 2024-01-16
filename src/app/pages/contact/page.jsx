@@ -1,10 +1,12 @@
 "use client";
-import Navbar from "@/app/components/Navbar/Navbar";
+
 import React, { useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import "./Contact.css";
+import Navbar from "../Navbar/Navbar";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {

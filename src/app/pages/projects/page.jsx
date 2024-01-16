@@ -1,9 +1,9 @@
 "use client";
-import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useEffect, useRef } from "react";
 import CountUp from "react-countup";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Projects.css";
+import Navbar from "../Navbar/Navbar";
 
 const Projects = () => {
   // function Number({ n }) {

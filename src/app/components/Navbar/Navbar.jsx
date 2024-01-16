@@ -48,22 +48,22 @@ const Navbar = () => {
         <div className="nav-links d-lg-block d-md-none d-sm-none d-xs-none">
           <ul className="d-flex justify-content-between align-items-center gap-4 fs-6 pt-3 list-unstyled text-decoration-none link-underline-opacity-0">
             <li className="nav-items">
-              <Link href="#home">Home</Link>
+              <Link href="#">Home</Link>
             </li>
             <li className="nav-items">
-              <Link href="#service">Service</Link>
+              <Link href="pages/services">Service</Link>
             </li>
             <li className="nav-items">
-              <Link href="#project">Project</Link>
+              <Link href="pages/projects">Project</Link>
             </li>
             <li className="nav-items">
-              <Link href="#team">Team</Link>
+              <Link href="pages/team">Team</Link>
             </li>
             <li className="nav-items">
-              <Link href="#partners">Partners</Link>
+              <Link href="pages/partners">Partners</Link>
             </li>
             <li className="nav-items">
-              <Link href="#contacts">Contacts</Link>
+              <Link href="pages/contact">Contacts</Link>
             </li>
             <li>
               <div className="social-links d-flex align-items-center gap-3">

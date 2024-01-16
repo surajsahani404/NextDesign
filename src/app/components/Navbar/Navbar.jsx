@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className={navFix ? "navbar fixed" : "navbar"}>
       <div className="container">
         <div className="navbar-logo">
-          <Link href="#">
+          <Link href="/">
             <img
               src="/logo2.png"
               alt="navbar-logo"
@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="nav-links d-lg-block d-md-none d-sm-none d-xs-none">
           <ul className="d-flex justify-content-between align-items-center gap-4 fs-6 pt-3 list-unstyled text-decoration-none link-underline-opacity-0">
             <li className="nav-items">
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="nav-items">
               <Link href="/services">Service</Link>

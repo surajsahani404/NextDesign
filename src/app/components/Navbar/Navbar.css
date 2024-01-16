@@ -6,7 +6,7 @@
   font-size: 0.85rem;
 }
 .nav-links ul a:hover {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: #5d42d3;
 }
 
@@ -19,7 +19,7 @@
 
 .social-links a i:hover {
   text-decoration: none;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: #5d42d3;
 }
 

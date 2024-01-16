@@ -17,7 +17,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Partners.css";
-import Navbar from "../Navbar/Navbar";
 
 const Partners = () => {
   const contRef = useRef(null);
@@ -106,8 +105,7 @@ const Partners = () => {
 
   return (
     <>
-      <Navbar />
-      <section className="partners pt-5 mt-5" ref={contRef}>
+      <section className="partners pt-5" ref={contRef}>
         <div className="conatiner text-center pt-5" ref={headRef}>
           <h1 className="fw-bolder">Our Clients</h1>
           <p>& partners</p>

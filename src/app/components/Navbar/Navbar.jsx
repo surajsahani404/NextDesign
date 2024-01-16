@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-logo">
           <Link href="#">
-            <Image
+            <img
               src="/logo2.png"
               alt="navbar-logo"
               width={120}
@@ -51,19 +51,19 @@ const Navbar = () => {
               <Link href="#">Home</Link>
             </li>
             <li className="nav-items">
-              <Link href="pages/services">Service</Link>
+              <Link href="/services">Service</Link>
             </li>
             <li className="nav-items">
-              <Link href="pages/projects">Project</Link>
+              <Link href="/projects">Project</Link>
             </li>
             <li className="nav-items">
-              <Link href="pages/team">Team</Link>
+              <Link href="/team">Team</Link>
             </li>
             <li className="nav-items">
-              <Link href="pages/partners">Partners</Link>
+              <Link href="/partners">Partners</Link>
             </li>
             <li className="nav-items">
-              <Link href="pages/contact">Contacts</Link>
+              <Link href="/contact">Contacts</Link>
             </li>
             <li>
               <div className="social-links d-flex align-items-center gap-3">

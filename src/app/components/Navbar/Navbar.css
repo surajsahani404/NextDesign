@@ -27,7 +27,7 @@
   position: fixed;
   z-index: 9999999;
   width: 100%;
-  background-color: transparent;
+  background-color: #fff;
   padding: 2vh 18.5vw;
   display: flex;
   justify-content: space-between;

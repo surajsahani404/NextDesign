@@ -1,6 +1,7 @@
 import { Poppins } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './globals.css'
+import Navbar from './components/Navbar/Navbar'
 
 const font = Poppins({ subsets: ['latin'], weight: ["100" , "200", "300", "400", "500", "600", "700", "800", "900"] })
 
@@ -12,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={font.className} >{children}</body>
+      <body className={font.className}>
+        <Navbar />
+        <div>{children}</div></body>
     </html>
   )
 }

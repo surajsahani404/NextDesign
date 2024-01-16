@@ -6,7 +6,6 @@ import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "./Services.css";
 import "remixicon/fonts/remixicon.css";
-import Navbar from "../Navbar/Navbar";
 gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {
@@ -65,7 +64,7 @@ const Services = () => {
   });
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="services-wrapper pt-5" ref={containerRef}>
         <div className="container text-white p-5">
           <h1 className="services-heading p-5" ref={headRef}>

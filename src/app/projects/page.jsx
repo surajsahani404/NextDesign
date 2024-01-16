@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from "react";
 import CountUp from "react-countup";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Projects.css";
-import Navbar from "../Navbar/Navbar";
 
 const Projects = () => {
   // function Number({ n }) {
@@ -33,8 +32,7 @@ const Projects = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="project-section text-center text-white mt-5 pb-5">
+      <div className="project-section text-center text-white pt-5">
         <button className="btn-projects">View All projects</button>
         <div className="container py-5 mt-5">
           <h1 className="projects-heading">ACHIEVEMENTS</h1>

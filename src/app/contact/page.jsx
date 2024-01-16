@@ -5,7 +5,6 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import "./Contact.css";
-import Navbar from "../Navbar/Navbar";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,7 +43,7 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="contact-section" ref={contactRef}>
         <div className="contact-head text-center" ref={headRef}>
           <h1>CONTACT US</h1>

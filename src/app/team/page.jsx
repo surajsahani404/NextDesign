@@ -9,7 +9,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Team.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Navbar from "../Navbar/Navbar";
 gsap.registerPlugin(ScrollTrigger);
 const Team = () => {
   const contRef = useRef(null);
@@ -53,8 +52,7 @@ const Team = () => {
   };
   return (
     <>
-      <Navbar />
-      <section className="team pt-5" ref={contRef}>
+      <section className="team" ref={contRef}>
         <div className="container">
           <div className="item-row d-flex py-5 px-4 mt-5 align-items-center">
             <div className="col-lg-6 col-md-12" ref={textRef}>

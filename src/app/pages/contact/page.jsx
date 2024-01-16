@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -40,42 +41,48 @@ const Contact = () => {
   });
 
   return (
-    <section className="contact-section" ref={contactRef}>
-      <div className="contact-head text-center" ref={headRef}>
-        <h1>CONTACT US</h1>
-        <p>& let us help</p>
-      </div>
-      <div className="contact-cards container" ref={cardsRef}>
-        <div className="card-item shadow rounded-3">
-          <div className="item-contents text-center">
-            <i className="ri-settings-5-line"></i>
-            <h5 className="pt-5 pb-2">Support</h5>
-            <p className="pb-5">
-              Just let us know if you have any questions regarding our services
-            </p>
+    <>
+      <Navbar />
+      <section className="contact-section" ref={contactRef}>
+        <div className="contact-head text-center" ref={headRef}>
+          <h1>CONTACT US</h1>
+          <p>& let us help</p>
+        </div>
+        <div className="contact-cards container" ref={cardsRef}>
+          <div className="card-item shadow rounded-3">
+            <div className="item-contents text-center">
+              <i className="ri-settings-5-line"></i>
+              <h5 className="pt-5 pb-2">Support</h5>
+              <p className="pb-5">
+                Just let us know if you have any questions regarding our
+                services
+              </p>
+            </div>
+          </div>
+          <div className="card-item shadow">
+            <div className="item-contents text-center">
+              <i className="ri-printer-line"></i>
+              <h5 className="pt-5 pb-2">Printing and Lettering</h5>
+              <p className="pb-5">
+                Just let us know if you have any questions regarding our
+                services
+              </p>
+            </div>
+          </div>
+          <div className="card-item shadow">
+            <div className="item-contents text-center">
+              <i className="ri-megaphone-line"></i>
+              <h5 className="pt-5 pb-2">Media and Marketing</h5>
+              <p className="pb-5">
+                Just let us know if you have any questions regarding our
+                services
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card-item shadow">
-          <div className="item-contents text-center">
-            <i className="ri-printer-line"></i>
-            <h5 className="pt-5 pb-2">Printing and Lettering</h5>
-            <p className="pb-5">
-              Just let us know if you have any questions regarding our services
-            </p>
-          </div>
-        </div>
-        <div className="card-item shadow">
-          <div className="item-contents text-center">
-            <i className="ri-megaphone-line"></i>
-            <h5 className="pt-5 pb-2">Media and Marketing</h5>
-            <p className="pb-5">
-              Just let us know if you have any questions regarding our services
-            </p>
-          </div>
-        </div>
-      </div>
-      <button className="btn-contact">Get in touch!</button>
-    </section>
+        <button className="btn-contact">Get in touch!</button>
+      </section>
+    </>
   );
 };
 

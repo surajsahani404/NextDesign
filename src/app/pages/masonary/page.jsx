@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/app/components/Navbar/Navbar";
 import React, { useRef } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
@@ -46,83 +47,86 @@ const Masonary = () => {
   });
 
   return (
-    <div className="projects" ref={containerRef}>
-      <div className="masonary-container container" ref={masonaryRef}>
-        <div className="masonary">
-          <div className="column">
-            <div className="image">
-              <img src="/item-1.jpg" alt="img1" />
-              <div className="product-info">
-                <h1 className="fs-4">Oranging Branding</h1>
-                <h6 className="fs-6">branding</h6>
+    <>
+      <Navbar />
+      <div className="projects mt-5" ref={containerRef}>
+        <div className="masonary-container container" ref={masonaryRef}>
+          <div className="masonary">
+            <div className="column">
+              <div className="image">
+                <img src="/item-1.jpg" alt="img1" />
+                <div className="product-info">
+                  <h1 className="fs-4">Oranging Branding</h1>
+                  <h6 className="fs-6">branding</h6>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/item-2.jpg" alt="img2" />
+                <div className="product-info">
+                  <h1 className="fs-4">Modern Essential Apparel</h1>
+                  <h6 className="fs-6">apparel</h6>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/item-6.jpg" alt="img6" />
+                <div className="product-info">
+                  <h1 className="fs-4">The Notebook Project</h1>
+                  <h6 className="fs-6">prints</h6>
+                </div>
               </div>
             </div>
-            <div className="image">
-              <img src="/item-2.jpg" alt="img2" />
-              <div className="product-info">
-                <h1 className="fs-4">Modern Essential Apparel</h1>
-                <h6 className="fs-6">apparel</h6>
-              </div>
-            </div>
-            <div className="image">
-              <img src="/item-6.jpg" alt="img6" />
-              <div className="product-info">
-                <h1 className="fs-4">The Notebook Project</h1>
-                <h6 className="fs-6">prints</h6>
-              </div>
-            </div>
-          </div>
 
-          <div className="column">
-            <div className="image">
-              <img src="/item-4.jpg" alt="" />
-              <div className="product-info">
-                <h1 className="fs-4">Coffee Cup</h1>
-                <h6 className="fs-6">packaging</h6>
+            <div className="column">
+              <div className="image">
+                <img src="/item-4.jpg" alt="" />
+                <div className="product-info">
+                  <h1 className="fs-4">Coffee Cup</h1>
+                  <h6 className="fs-6">packaging</h6>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/item-5.jpg" alt="img5" />
+                <div className="product-info">
+                  <h1 className="fs-4">Post Office</h1>
+                  <h6 className="fs-6">packaging</h6>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/item-8.jpg" alt="img8" />
+                <div className="product-info">
+                  <h1 className="fs-4">Marble Visual Identity</h1>
+                  <h6 className="fs-6">apparel</h6>
+                </div>
               </div>
             </div>
-            <div className="image">
-              <img src="/item-5.jpg" alt="img5" />
-              <div className="product-info">
-                <h1 className="fs-4">Post Office</h1>
-                <h6 className="fs-6">packaging</h6>
-              </div>
-            </div>
-            <div className="image">
-              <img src="/item-8.jpg" alt="img8" />
-              <div className="product-info">
-                <h1 className="fs-4">Marble Visual Identity</h1>
-                <h6 className="fs-6">apparel</h6>
-              </div>
-            </div>
-          </div>
 
-          <div className="column">
-            <div className="image">
-              <img src="/item-7.jpg" alt="img7" />
-              <div className="product-info">
-                <h1 className="fs-4">iconic Magazine</h1>
-                <h6 className="fs-6">prints</h6>
+            <div className="column">
+              <div className="image">
+                <img src="/item-7.jpg" alt="img7" />
+                <div className="product-info">
+                  <h1 className="fs-4">iconic Magazine</h1>
+                  <h6 className="fs-6">prints</h6>
+                </div>
               </div>
-            </div>
-            <div className="image">
-              <img src="/item-3.jpg" alt="img3" />
-              <div className="product-info">
-                <h1 className="fs-4">Jevelin Festival </h1>
-                <h6 className="fs-6">branding</h6>
+              <div className="image">
+                <img src="/item-3.jpg" alt="img3" />
+                <div className="product-info">
+                  <h1 className="fs-4">Jevelin Festival </h1>
+                  <h6 className="fs-6">branding</h6>
+                </div>
               </div>
-            </div>
-            <div className="image">
-              <img src="/item-9.jpg" alt="img9" />
-              <div className="product-info">
-                <h1 className="fs-4">Print House</h1>
-                <h6 className="fs-6">prints</h6>
+              <div className="image">
+                <img src="/item-9.jpg" alt="img9" />
+                <div className="product-info">
+                  <h1 className="fs-4">Print House</h1>
+                  <h6 className="fs-6">prints</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

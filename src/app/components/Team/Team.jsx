@@ -25,14 +25,14 @@ const Team = () => {
 
     gsap.from(carouselRef.current, {
       x: 100,
-      duration: 2,
+      duration: 3,
       ease: "power3",
       scrollTrigger: {
         trigger: contRef.current,
       },
     });
     gsap.from(".team-member", {
-      opacity: 0.2,
+      opacity: 0,
       ease: "sine",
       duration: 3,
       scrollTrigger: {

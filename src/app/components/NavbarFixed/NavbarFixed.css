@@ -27,20 +27,16 @@
   color: #5d42d3;
 }
 
-.navbar {
+.navbarFixed {
   position: fixed;
   z-index: 9999999;
   width: 100%;
-  background-color: transparent;
+  background-color: #fff;
   padding: 3vh 18.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 0.4s ease;
-}
-.navbar.fixed {
-  background-color: #fff;
-  padding: 1.5vh 18.5vw;
 }
 
 @media (max-width: 786px) {

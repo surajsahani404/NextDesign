@@ -1,11 +1,11 @@
-.services-wrapper {
+.servicesWrapper {
   height: 100%;
   width: 100%;
   background-color: #5d42d3;
   padding-bottom: 15rem;
 }
 
-.services-heading {
+.servicesHeading {
   font-size: 4vw;
   line-height: 8vh;
   font-weight: 800;

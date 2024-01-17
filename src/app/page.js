@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar/Navbar'
+import NavbarFixed from "./components/NavbarFixed/NavbarFixed"
 import Services from './components/Services/Services'
 import Masonary from './components/Masonary/Masonary'
 import LandingPage from './components/LandingPage/LandingPage'

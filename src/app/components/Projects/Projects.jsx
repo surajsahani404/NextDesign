@@ -31,7 +31,7 @@ const Projects = () => {
   // });
 
   return (
-    <div className="project-section text-center text-white pb-5">
+    <div className="project-section text-center text-white">
       <button className="btn-projects">View All projects</button>
       <div className="container py-5 mt-5">
         <h1 className="projects-heading">ACHIEVEMENTS</h1>

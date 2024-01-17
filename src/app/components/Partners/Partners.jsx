@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -17,7 +18,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Partners.css";
-
+gsap.registerPlugin(ScrollTrigger);
 const Partners = () => {
   const contRef = useRef(null);
   const headRef = useRef(null);
